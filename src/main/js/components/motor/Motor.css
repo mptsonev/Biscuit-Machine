@@ -1,0 +1,70 @@
+.firstGear,
+.middleGear,
+.lastGear {
+  color: #888;
+  display: block;
+  float: left;
+  position: absolute;
+  font-size: 5em;
+}
+
+.firstGear {
+  top: 6.5em;
+  left: 1em;
+}
+
+.middleGear {
+  left: 1.7em;
+  top: 7em;
+}
+
+.lastGear {
+  top: 6.5em;
+  left: 2.4em;
+}
+
+.spin {
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+
+.spinBack {
+  -webkit-animation: spin_back 4s linear infinite;
+  -moz-animation: spin_back 4s linear infinite;
+  animation: spin_back 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin_back {
+  100% {
+    -moz-transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes spin_back {
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@keyframes spin_back {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}

@@ -1,0 +1,18 @@
+.temperature {
+  font-size: 3em;
+  padding-left: 0.2em;
+}
+
+.container {
+  display: flex;
+  padding: 1em;
+}
+
+.status {
+  font-size: 1.5em;
+  padding-left: 1em;
+}
+
+.text {
+  font-size: 1.5em;
+}
