@@ -1,6 +1,6 @@
 # Biscuit Machine
 
-Sample Biscuit Machine simulator project, based on Java with Spring Boot and React JS
+Sample Biscuit Machine simulator project, based on Java with Spring Boot, React and WebSocket
 
 ## Build
 
