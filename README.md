@@ -4,7 +4,7 @@ Sample Biscuit Machine simulator project, based on Java with Spring Boot, React 
 
 ## Build
 
-Make sure you have (at least) Java 11 and Maven and run: 
+Make sure you have (at least) Java 11 and Maven installed and run: 
 
 `mvn clean install`
 
